@@ -1,0 +1,61 @@
+
+ 
+ .meat{
+      border: 3px solid black;
+      width: 90px;
+      height: 25px;
+      color: white;
+      
+      text-align: right;
+      padding: 5px;
+      text-align: center;
+      float:right;
+      font-size: 16px;
+ }
+ 
+ .men{
+     font: 30px arial;
+     text-align: center;
+     font-family:"Comic Sans MS", cursive, sans-serif;
+ }
+ .cat{
+     border: 3px solid black;
+     text-align: bottom center;
+     margin-top: 80px;
+     background-color: #696969;
+     width: 30%;
+     height:160px;
+     margin-top: 150px;
+     font-family:"Comic Sans MS", cursive, sans-serif;
+     font-size: 14px;
+     overflow: auto;
+ }
+ .chix{
+ 	align-self: right;
+    position: absolute;
+    right: 20px;
+
+ }
+ .chicky{background-color: yellow;
+  color: black;
+  display: block;
+ }
+
+ .beef{
+ 	align-self: middle;
+    position: absolute;
+    right: 35%;
+}
+ 
+.beefy{background-color: blue;
+ color: white;
+}
+
+ .fish{align: left;
+    position: absolute;
+    left: 20px;
+
+}
+ .fishy{background-color: green;
+  color: black;
+ }
