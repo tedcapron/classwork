@@ -1,0 +1,83 @@
+body{
+    background-color:cornflowerblue;
+    text-align: center;
+    font-family: cursive;
+}
+*{box-sizing: border-box;}
+
+/*------------------ default styling----------------*/
+.default{
+        width:90%;
+        height:auto;
+        border: 1px solid black;
+        background-color: darkgrey;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        
+        
+}
+
+/*---------------large screen styling-----------------*/
+
+@media (min-width: 992px){ .largeMenu{
+               width:30%;
+              float: left;
+              margin:20px;
+              
+            
+    }
+    }
+/*-------------------medium screen-------------------*/
+
+@media (min-width: 768px) and (max-width: 991px) {.medMenu{
+    
+    width: 45%;
+    float: right;
+    margin: 5px;
+    clear: right;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {.medMenuLeft{
+    
+    width: 45%;
+    float: left;
+    margin: 5px;
+    clear: left;
+    }
+}
+    @media (min-width: 768px) and (max-width: 991px) {.medMenuBot{
+    
+    width: 99%;
+    float: left;
+    margin: 5px;
+    clear: both;
+    }
+    
+}
+/*---------------meat labels---------------*/
+.sushi{
+    background-color: aquamarine;
+    text-align: center;
+    height: auto;
+    width: 100px;
+    border: 1px solid black;
+    float: right;   
+    
+}
+.beef{
+    background-color: coral;
+    text-align: center;
+    height: auto;
+    width: 100px;
+    border: 1px solid black;
+    float:right;
+}
+.chicken{
+    background-color: blanchedalmond;
+    text-align: center;
+    height: auto;
+    width: 100px;
+    border: 1px solid black;
+    float: right;
+}
